@@ -60,7 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:id="@+id/t9topbar"
-        android:background="@android:color/black"
+        android:background="@drawable/dialpad_background"
         android:gravity="center_vertical"
         android:layout_weight="0.1">
         <ListView
@@ -96,7 +96,7 @@
             android:layout_width="match_parent"
             android:id="@+id/t9list"
             android:visibility="gone"
-            android:background="@android:color/black"
+            android:background="@drawable/dialpad_background"
             android:scrollingCache="true"
             android:layout_height="match_parent" />
     </ViewSwitcher>
@@ -113,7 +113,7 @@
         android:layout_height="0px"
         android:layout_weight="0.150"
         android:layout_gravity="center_horizontal"
-        android:background="@android:color/black"
+        android:background="@drawable/dialpad_background"
         android:orientation="horizontal">
 
         <ImageButton
